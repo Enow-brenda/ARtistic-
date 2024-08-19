@@ -1,0 +1,127 @@
+body{
+    padding-left: 0.5rem;
+    overflow-x: none;
+}
+.fly-item{
+    position:absolute;
+    height:16px;
+    font-weight: 400;
+    padding:3px;
+    
+    line-height: 10px;
+    color:white;
+}nav{
+    margin-bottom: 0.5rem;
+}
+nav .fly-item{
+    margin-top: -20px;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 3px;
+   margin-left:10px;
+   font-size: 10px;
+   background-color: red;
+   border-radius: 20px;
+   padding-bottom: 0px;
+}.icon-large{
+    position: relative;
+    }
+.pink{
+    color:#ff6b6b ; 
+}img{
+    margin-right: 20px;
+}
+.footer{
+    
+    background-color:rgb(230, 227, 227) ;
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    margin-top: 2rem;
+}.footer ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap:1rem;
+margin-right: 3rem;
+
+}.footer a,.footer li{
+text-decoration: none;
+color:gray;
+font-size: 15px;
+}.footer a:hover{
+color: #ff6b6b;
+
+}
+.footer b{
+color: black;
+}
+.footer .button{
+padding:5px 5px;
+background-color: #ff6b6b;
+width: fit-content;
+border-radius: 20px;
+}
+.footer .button a{
+color: white;
+font-size: 10px;
+}
+.footer .logo a{
+font-size: 50px;
+color:#794afa;
+margin-left: 7rem;
+margin-right: 7rem;
+}
+footer{
+    gap:40rem;
+    margin-left: 5rem;
+    color:gray;
+    font-size: 10px;
+    margin-top: 1rem;
+    }.search{
+    margin-left: 30rem;
+}body{
+    margin:20px;
+}
+
+@media (max-width: 1000px) {
+   body{
+        font-size: 15px;
+    }h2{
+        font-size: 20px;
+    }.table{
+        overflow-x: scroll;
+        
+    }.img{
+        width:4rem; 
+    }footer p{
+        font-size: 0.5rem;
+        margin-left: 1rem;
+
+    }footer{
+        gap:0rem;
+        margin-left: 0rem;
+    }
+    .footer{
+        flex-direction: column;
+      
+    }.footer .logo{
+        text-align: center;
+    }.fly-item{
+        margin-left: 0px;
+    }h5{
+        font-size: 15px;
+    }.actions i{
+        margin-bottom: 1rem;
+    }.search{
+        margin-left:0px;
+    }body{
+        margin:0px;
+    }.fixed-button{
+        bottom: 5rem;
+        right: 2rem;
+      }.mobile-hide{
+        margin-top: 10px;
+      }
+  }
